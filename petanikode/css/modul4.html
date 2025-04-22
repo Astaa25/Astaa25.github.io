@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contoh Pseudo-element</title>
+    <meta content="">
+    <style>
+    p::first-line {
+        color: rgb(255, 149, 0);
+    }
+
+    h2 {
+    color: rgb(105, 105, 233);
+    }
+
+    .pink {
+    color: white;
+    background: rgb(247, 138, 156);
+    padding: 5px;
+    }
+
+    #header {
+    background: teal;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    height: 100px;
+    padding: 50px;
+    }
+
+    input[type=text] {
+    background: none;
+    color: cyan;
+    padding: 10px;
+    border: 1px solid cyan;
+    }
+
+    * {
+    box-sizing: border-box;
+    }
+
+    a:hover {
+    color: green;
+    }
+    </style>
+
+  </head>
+  <body>
+    <header id="header">
+      <h1>Selamat Datang di Website Saya</h1>
+    </header>
+
+    <h1>Halo apa kabar, saya sedang belajar CSS</h1>
+    <h2>Materi yang sedang kita bahas adalah Selektor</h2>
+    <div>Saat ini sedang dibahas tentang selektor tag</div>
+    <div>Selektor tag adalah selektor untuk memilih elemen HTML berdasarkan nama tagnya</div>
+
+    <p>ini adalah paragraf yang cukup panjang. Pseudo-element adalah selektor untuk memilih elemen semu. Elemen semu yang saya maksud di sini adalah elemen yang seolah-olah kita tambahkan di HTML. </p>
+   
+    <h4>Saya sedang belajar <b class="pink">CSS</b> di petanikode.com.</h4>
+    
+    <input type="text" placeholder="ketik pesan..." />
+
+    <h3><a href="https://astaa24.github.io/" target="_blank">Personal Web Abrar Astafaraiz</a></h3>
+    
+  </body>
+</html>
