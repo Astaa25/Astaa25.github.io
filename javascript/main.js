@@ -12,7 +12,7 @@ const navSlide = () => {
   
   navSlide();
   
-  // Untuk bersihin form setelah dikirim dan setelah kira reload web
+  // Untuk bersihin form setelah dikirim dan setelah kita reload web
   // Clear form before unload
   window.onbeforeunload = () => {
     for (const form of document.getElementsByTagName("form")) {
