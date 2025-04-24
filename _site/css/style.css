@@ -253,65 +253,65 @@ nav ul li a {
   fill: var(--primaryIconColor);
 }
 
-/* Awards */
-#Awards {
+/* Portfolios */
+#portfolios {
   padding: var(--sectionPadding);
 }
 
-.award {
+.portfolio {
   border-radius: var(--itemBorderRadius);
-  overflow: hidden; /* supaya gambar yang diatas itu dia ngikut border radiusnya, karena yang dikasih border radius disini adalah div award ini */
+  overflow: hidden; /* supaya gambar yang diatas itu dia ngikut border radiusnya, karena yang dikasih border radius disini adalah div portfolio ini */
   border: 1px solid var(--borderColor);
 }
 
-.award-cover {
+.portfolio-cover {
   height: 250px;
 }
 
-.award img {
+.portfolio img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.award-info {
+.portfolio-info {
   padding: 2rem 1.5rem;
 }
 
-.award-title {
+.portfolio-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
 }
 
-.award h4 {
+.portfolio h4 {
   font-weight: 500;
   font-size: 1.05rem;
 }
 
-.award-title a svg:hover {
+.portfolio-title a svg:hover {
   fill: var(--primaryIconColor);
 }
 
-.award-title a svg {
+.portfolio-title a svg {
   transition: 0.2s ease-in-out;
 }
 
-.award-tags {
+.portfolio-tags {
   display: flex;
   gap: 1rem;
   margin: 1rem 0;
 }
 
-.award-tags div {
+.portfolio-tags div {
   font-size: 0.9rem;
   border: 1px solid var(--borderColor);
   padding: 0.4rem 1rem;
   color: var(--secondaryTextColor);
 }
 
-.award-tags div {
+.portfolio-tags div {
   font-size: 0.9rem;
   border: 1px solid var(--borderColor);
   padding: 0.4rem 1rem;

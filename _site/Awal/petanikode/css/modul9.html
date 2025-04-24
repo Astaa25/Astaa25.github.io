@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan CSS Border</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        header {
+            border: 2px solid blue;
+            text-align: center;
+            margin-bottom: 1em;
+            border-bottom: 2px double blue;
+            border-radius: 16px;
+        }
+
+        article {
+            border: 2px solid fuchsia;
+            padding: 1em;
+            margin-bottom: 1em;
+            border: 1px solid silver;
+            border-radius: 16px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 0.5em;
+            border: 2px solid green;
+            border-top: 2px dashed gray;
+            border-radius: 16px;
+        }
+
+        blockquote {
+        margin: 1em;
+        padding: 1em;
+        font-size: 2em;
+        border-width: 1em;
+        border-style: solid;
+        border-image: url("border.svg") 100 round;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Latihan CSS Border</h1>
+    </header>
+
+    <article>
+        Ini adalah contoh paragraf artikel buat Latihan
+        properti border di CSS. Properti border adalah properti
+        untuk membuat garis pada sisi elemen HTML. Garis ini
+        berguna untuk memberikan batas antar elemen. Sehingga,
+        bisa terlihat ada pemisah dan menjadi kesatuan.
+    </article>
+
+    <blockquote>
+        Ini adalah contoh elemen dengan border image.
+      </blockquote>
+
+    <footer>
+        &copy; 2022 Petani Kode
+    </footer>
+    
+</body>
+</html>
