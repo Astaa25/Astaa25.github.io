@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contoh Text Align</title>
+    <meta content="">
+    <style>
+        header {
+        text-align: center;
+        }
+
+        .text-left {
+        text-align: left;
+        }
+
+        .text-right {
+        text-align: right;
+        }
+
+        .text-center {
+        text-align: center;
+        }
+
+        .text-justify {
+        text-align: justify;
+        }
+      
+        header {
+        text-align: center;
+        }
+
+        body {
+        direction: rtl;
+        }
+
+        .upperline {
+            text-decoration: overline;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        .strike {
+            text-decoration: line-through;
+        }
+
+        .upper {
+            text-transform: uppercase;
+        }
+
+        .lower {
+            text-transform: lowercase;
+        }
+
+        h1 {
+            text-transform: capitalize;
+            letter-spacing: -2px;
+            word-spacing: 4px;
+            color: lime;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+        }
+
+        .small {
+            font-size: 8px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .line-height {
+            line-height: 1.6;
+        }
+
+        .indent {
+            text-indent: 2em;
+        }
+
+        .nowrap {
+            white-space: break-spaces;
+        }
+
+        p {
+            width: 320px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <h1>Belajar CSS Text Align</h1>
+    </header>
+
+    <h1>Contoh Text Shadow</h1>
+
+    <article>
+      <p class="text-left">
+        Paragraf ini akan rata kiri. Ini cuma contoh paragraf untuk mendemokan text-align di CSS.
+        Silakan tulis isi paragraf sesukamu. Cobalah perhatikan hasilnya di browser.
+      </p>
+      <p class="text-center">
+        Paragraf ini akan rata tengah. Ini cuma contoh paragraf untuk mendemokan text-align di CSS.
+        Silakan tulis isi paragraf sesukamu. Cobalah perhatikan hasilnya di browser.
+      </p>
+      <p class="text-right">
+        Paragraf ini akan rata kanan. Ini cuma contoh paragraf untuk mendemokan text-align di CSS.
+        Silakan tulis isi paragraf sesukamu. Cobalah perhatikan hasilnya di browser.
+        </p>
+        <p class="text-justify">
+        Paragraf ini akan rata kiri kanan. Ini cuma contoh paragraf untuk mendemokan text-align di CSS.
+        Silakan tulis isi paragraf sesukamu. Cobalah perhatikan hasilnya di browser.
+        </p>
+        <p> </p>
+        <p>
+          وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم الاساسي.
+        </p>
+        <p>
+          وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم الاساسي.
+        </p>
+      </article>
+
+      <p>
+        <span class="underline">Ini Teks dengan dekorasi garis bawah</span>. Ini teks normal,
+        tanpa dekorasi apapun. Ini teks tanpa dekorasi. Ini teks <span class="strike">yang dicoret</span>.
+        <span class="upperline">Ini teks dengan dekorasi garis di atas.</span>
+    </p>
+
+    <p>
+        <span class="upper">hello world</span> ini adalah contoh paragraf.
+        <span class="lower">TEKS INI DITULIS DENGAN HURUF KAPITAL, TAPI hasilnya
+            AKAN MENJADI LOWERCASE. KARENA CSS YANG MENGATURNYA.
+        </span>
+    </p>
+
+    <h1>Contoh Text Spacing</h1>
+    <p class="small">Contoh teks dengan ukuran kecil</p>
+
+    <p class="indent">
+        Ini adalah contoh paragraf dengan teks indent. Artinya, teks pada baris
+        pertama akan masuk ke dalam sepanjang 2em. Panjang 2em sama dengan 2x16px,
+        maka 2em akan bernilai 32px.
+    </p>
+    <p class="line-height">
+        Ini adalah contoh paragraf tanpa indent. Paragraf normal dengan line height
+        sebesar 1.6. Normalnya line height tiap teks adalah 1. Tapi line height 1
+        sulit dibaca jika ada banyak teks. Line height 1.6 akan membuat teks jadi mudah
+        dibaca, karena ada spasi atau jarak di antara baris.
+    </p>
+    <p class="nowrap">
+        Ini conoth paragraf dengan white-space: break-spaces.
+        Artinya wthie space pada paragraf ini, akan mengikuti
+        spasi seperti yang ditulis di dalam HTML.
+    </p>
+
+    <p>
+        Ini adalah contoh paragraf yang cukup panjang. Ukuran elemen paragraf 
+        ini sudah diatur pada CSS dengan panjang 320px. Akan tetapi panjang
+        teks pada paragraf ini melebihi ukuran paragraf. Maka akan terjadi
+        teks overflow. Tapi tenang saja, teks overflow bisa kita atur di CSS
+        dengan properti text-overflow.
+    </p>
+  </body>
+</html>
