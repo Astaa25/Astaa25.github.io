@@ -182,6 +182,11 @@ nav ul li a {
   align-items: center;
 }
 
+.hero-left {
+  max-width: 600px;
+  animation: fadeInUp 1s ease-out;
+}
+
 .hero-name {
   font-size: 3rem;
   font-weight: 700;
