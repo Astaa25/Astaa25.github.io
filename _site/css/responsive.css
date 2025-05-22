@@ -21,7 +21,7 @@
   }
 
   .toggle-burger .line-1 {
-    transform: rotate(-45deg) translate(-5px, 8px);
+    transform: rotate(-45deg) translate(-6px,7px);
   }
 
   .toggle-burger .line-2 {
@@ -29,7 +29,7 @@
   }
 
   .toggle-burger .line-3 {
-    transform: rotate(45deg) translate(-5px, -8px);
+    transform: rotate(45deg) translate(-6px, -7px);
   }
 
   /* Navigation */
