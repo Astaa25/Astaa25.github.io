@@ -8,8 +8,8 @@
   --lineColor: #d9d9d9; /* untuk line di pre-title */
 
   --primaryBackgroundColor: #fff;
-  --secondaryBackgroundColor: #fbfbfb;
-  --thirdBackgroundColor: #f5f3fe;
+  --secondaryBackgroundColor: #f5f3fe;
+  --thirdBackgroundColor: #f4f1fe;
 
   --primaryIconColor: #7e74f1;
   --primaryIconColorHover: #5d51e8;
@@ -171,6 +171,11 @@ nav ul li a {
   position: fixed;
   top: 33px;
   right: 35px;
+  background: #f4f1fe;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
 }
 
 /* Hero Section */
